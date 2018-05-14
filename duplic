@@ -1,0 +1,9 @@
+num_list = [1,2,3,2,4,5,3]
+dupl_dict = {}
+
+for val in num_list:
+    if val in dupl_dict:
+        dupl_dict[val] = dupl_dict[val] + 1
+    else:
+        dupl_dict[val] = 1
+print(dupl_dict)
