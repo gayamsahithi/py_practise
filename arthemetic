@@ -1,0 +1,20 @@
+def sum( p1 ,p2 ):
+    total = p1 + p2
+    return  total
+def sub( p1 ,p2 ):
+    total = p1 - p2
+    return total
+def multiply( p1 ,p2):
+    total = p1 * p2
+    return  total
+def div( p1 ,p2 ):
+    total = p1 % p2
+    return  total
+
+p1 = 10
+p2 = 5
+p3 = multiply(p1 , p2)
+p4 = div(p1 , p2)
+p5 = sum(p1 , p2)
+p6 = sub(p1 , p2)
+print(p3,p4,p5,p6)
